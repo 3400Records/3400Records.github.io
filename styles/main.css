@@ -33,7 +33,7 @@ body {
     width: 350px;
     /* height: 80px; */
     font-size: 30px;
-    padding: 10px;
+    padding: 10px 50px;
     gap: 20px;
     text-decoration: none;
     justify-content: center;
@@ -42,13 +42,19 @@ body {
 
 .socials-logo {
     padding: 0;
-    width: 50px;
+    width: 100px;
     display: inline;
 }
 
 .socials-logo-instagram {
     padding: 10px;
-    width: 30px;
+    width: 100px;
+    display: inline;
+}
+
+.socials-logo-yt {
+    padding: -10px;
+    width: 120px;
     display: inline;
 }
 
