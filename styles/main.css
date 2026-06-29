@@ -102,6 +102,14 @@ body {
     flex: 0 0 100%;
 }
 
+.beats-note {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    font-size: 12px;
+    flex: 0 0 100%;
+}
+
 
 
 /* .socials-link {
@@ -124,5 +132,10 @@ footer {
 }
 
 body {
+    margin: 0;
     padding-bottom: 50px;
+}
+
+main {
+    margin: 8px;
 }
