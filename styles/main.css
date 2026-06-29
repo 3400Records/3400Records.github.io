@@ -75,8 +75,12 @@ body {
 }
 
 .beats-box {
-    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    gap: 10px;
     margin: auto;
+    justify-content: center;
 }
 
 .beats-span {
@@ -96,3 +100,13 @@ body {
 .socials-link:visited {
   color: inherit;
 } */
+
+footer {
+    font-size: 16px;
+    background-color: #121212;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    text-align: center;
+}
