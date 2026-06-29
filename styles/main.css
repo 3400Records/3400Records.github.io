@@ -79,6 +79,7 @@ body {
     width: 70%;
     gap: 10px;
     margin: auto;
+    margin-bottom: 15px;
     justify-content: center;
 }
 
@@ -108,4 +109,8 @@ footer {
     bottom: 0;
     padding: 10px;
     text-align: center;
+}
+
+body {
+    padding-bottom: 50px;
 }
