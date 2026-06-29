@@ -27,11 +27,10 @@ body {
 }
 
 .socials-card {
+    flex: 0 0 250px;
     display: flex;
     flex-direction: row;
     background-color: #121212;
-    width: 250px;
-    /* height: 80px; */
     font-size: 16px;
     padding: 10px 25px;
     gap: 20px;
