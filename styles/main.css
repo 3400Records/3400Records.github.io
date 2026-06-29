@@ -83,11 +83,23 @@ body {
     justify-content: center;
 }
 
+.beats-card {
+    flex: 0 0 300px;
+    display: flex;
+    flex-direction: row;
+    background-color: #121212;
+    font-size: 16px;
+    gap: 20px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
 .beats-span {
     display: block;
     font-weight: bold;
     text-align: center;
-    margin-bottom: 10px;
+    flex: 0 0 100%;
 }
 
 
