@@ -110,6 +110,18 @@ body {
     flex: 0 0 100%;
 }
 
+.beats-button {
+
+    font-size: 15px;
+    text-align: center;
+    background-color: #888888;
+    padding: 10px 0px;
+    font-weight: bold;
+    /* padding-left: 30%;
+    padding-right: 30%; */
+    box-sizing: border-box;
+    flex: 0 0 100%;
+}
 
 
 /* .socials-link {
