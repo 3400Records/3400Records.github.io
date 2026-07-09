@@ -35,13 +35,14 @@ body {
     padding: 10px 25px;
     gap: 20px;
     text-decoration: none;
+    border-radius: 50px;
     justify-content: center;
     align-items: center;
 }
 
 .socials-logo {
     padding: 0;
-    width: 100px;
+    width: 70px;
     display: inline;
 }
 
