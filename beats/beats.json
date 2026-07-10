@@ -9,6 +9,7 @@
             ]
         },
         "mediasrc" : {
+            "thumbnail"  : "./beats/thumbnails/34hundred_WonB.png",
             "tagged_mp3" : "./beats/tagged_mp3s/frenzy163_tagged.mp3"
         }
     }

@@ -1,20 +1,57 @@
 body {
-    background-color: #000000;
+    background-color: #252525;
     color: #FFFFFF;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
+    margin: 0;
+    padding-bottom: 50px;
 }
 
-.head-text {
-    display: block;
-    padding: 10px;
-    margin-bottom: 15px;
+header {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+    background-color: #121212;
+    position: fixed;
+    top: 0;
+}
 
+main {
+    margin: 8px;
+    margin-top: 120px;
+}
+
+footer {
+    font-size: 16px;
+    background-color: #101010;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.head-links {
     color: #FFFFFF;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 20px;
     font-family: Verdana;
     text-align: center;
+    padding-top: 50px;
+    padding-right: 40px;
+}
+
+.head-links a {
+    color: #FFFFFF;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.head-img {
+    width: 100px;
+    padding: 10px;
 }
 
 .socials-box {
@@ -33,7 +70,7 @@ body {
     background-color: #121212;
     font-size: 16px;
     padding: 10px 25px;
-    gap: 20px;
+    gap: 10px;
     border-radius: 50px;
     text-decoration: none;
     border-radius: 50px;
@@ -89,12 +126,34 @@ body {
     flex: 0 0 300px;
     display: flex;
     flex-direction: row;
-    background-color: #121212;
+    flex-wrap: wrap;
     font-size: 16px;
-    gap: 20px;
+    gap: 0px;
     text-decoration: none;
     justify-content: center;
     align-items: center;
+}
+
+/* .beats-card-audio {
+    display: block;        
+    flex: 0 0 60%;            
+    margin: 10px auto;      
+    border-radius: 30px;    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    outline: none;
+    filter: invert(90%) hue-rotate(180deg);
+} */
+
+.beats-card-title {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    flex: 0 0 100%;
+}
+
+.beats-card-thumbnail {
+    width: 80px;
+    flex: 0 1 80px;
 }
 
 .beats-span {
@@ -113,7 +172,6 @@ body {
 }
 
 .beats-button {
-
     font-size: 15px;
     text-align: center;
     background-color: #888888;
@@ -135,21 +193,4 @@ body {
   color: inherit;
 } */
 
-footer {
-    font-size: 16px;
-    background-color: #101010;
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    padding: 10px;
-    text-align: center;
-}
 
-body {
-    margin: 0;
-    padding-bottom: 50px;
-}
-
-main {
-    margin: 8px;
-}
