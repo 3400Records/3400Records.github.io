@@ -19,10 +19,18 @@
 
     <div id="beats-box" class="beats-box">
       <span class="beats-span">Beats For Sale</span>
-      <button class="beats-span" onclick="window.location.reload();">Show Beats</button>
-      <iframe src="//www.beatstars.com/embed/track/?id=25810497" class="beats-card"></iframe>
-      <iframe src="//www.beatstars.com/embed/track/?id=25763010" class="beats-card"></iframe>
-      <span class="beats-note">(Refresh page if beats don't load)</span>
+      <div class="beats-button" onclick="updateBeats();">Show All Beats</div>
+
+      <div class="beats-card">
+        <span class="beats-card-span"></span>
+        <audio class="beats-card-audio" controls>
+          <source src="./beats/tagged_mp3s/frenzy163_tagged.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+
+      <!-- <span class="beats-note">(Refresh page if beats don't load)</span> -->
+
     </div>
 
     <div class="socials-box">
